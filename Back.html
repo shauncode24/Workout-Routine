@@ -1,0 +1,412 @@
+<html>
+	<head>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik+Vinyl&family=Signika+Negative:wght@300..700&family=Single+Day&family=Ubuntu&display=swap" rel="stylesheet">
+    </head>
+	<body bgcolor="#2F4F4F">
+		<link rel="stylesheet" type="text/css" href="FinalStyle.css">
+		<div class="header3"> 
+            <h1 class="pagetitle">BACK</h1>
+            <input type="button" value="Save Data" onclick="saveToCSV()" class = "save">
+			<input type="file" id="csvFile" accept=".csv" onchange="loadFromCSV()" class="load">
+			<label for="csvFile" class="labelload">Select Data</label>
+			<input type="button" value="Reset" onclick="resetForm()" class="reset">
+		</div>
+		<!----------------------------------------------------------------->
+		<div class="exrow1">
+
+			<div class = "toto">
+				<div class = "row1sec">
+					<img src="https://fitnessprogramer.com/wp-content/uploads/2021/02/Lat-Pulldown.gif" class="row1gif"></img>
+				</div>
+			</div>
+	
+			<div class="childishdata">
+				<div class = "childsecond">Set 1</div>
+					<div class = "row2sec">
+						<div class = "weight">Weight <br><input type="text" class = "datainp" id="input1"></div>
+						<div class = "reps">Reps <br><input type="text" class = "datainp" id="input2"></div>
+					</div>
+			</div>
+	
+			<div class="childishdata">
+				<div class = "childsecond">Set 2</div>
+				<div class = "row2sec">
+					<div class = "weight">Weight <br><input type="text" class = "datainp" id="input3"></div>
+					<div class = "reps">Reps <br><input type="text" class = "datainp" id="input4"></div>
+				</div>
+			</div>
+	
+			<div class="childishdata">
+				<div class = "childsecond">Set 3</div>
+				<div class = "row2sec">
+					<div class = "weight">Weight <br><input type="text" class = "datainp" id="input5"></div>
+					<div class = "reps">Reps <br><input type="text" class = "datainp" id="input6"></div>
+				</div>
+			</div>
+	</div>
+		<!----------------------------------------------------------------->
+		<div class="exrow1">
+
+			<div class = "toto">
+				<div class = "row1sec">
+					<img src="https://fitnessprogramer.com/wp-content/uploads/2021/06/Close-Grip-Lat-Pulldown.gif" class="row1gif"></img>
+				</div>
+			</div>
+	
+			<div class="childishdata">
+				<div class = "childsecond">Set 1</div>
+					<div class = "row2sec">
+						<div class = "weight">Weight <br><input type="text" class = "datainp" id="input7"></div>
+						<div class = "reps">Reps <br><input type="text" class = "datainp" id="input8"></div>
+					</div>
+			</div>
+	
+			<div class="childishdata">
+				<div class = "childsecond">Set 2</div>
+				<div class = "row2sec">
+					<div class = "weight">Weight <br><input type="text" class = "datainp" id="input9"></div>
+					<div class = "reps">Reps <br><input type="text" class = "datainp" id="input10"></div>
+				</div>
+			</div>
+	
+			<div class="childishdata">
+				<div class = "childsecond">Set 3</div>
+				<div class = "row2sec">
+					<div class = "weight">Weight <br><input type="text" class = "datainp" id="input11"></div>
+					<div class = "reps">Reps <br><input type="text" class = "datainp" id="input12"></div>
+				</div>
+			</div>
+	</div>
+			<!----------------------------------------------------------------->
+			<div class="exrow1">
+
+				<div class = "toto">
+					<div class = "row1sec">
+						<img src="https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Row.gif" class="row1gif"></img>
+					</div>
+				</div>
+		
+				<div class="childishdata">
+					<div class = "childsecond">Set 1</div>
+						<div class = "row2sec">
+							<div class = "weight">Weight <br><input type="text" class = "datainp" id="input13"></div>
+							<div class = "reps">Reps <br><input type="text" class = "datainp" id="input14"></div>
+						</div>
+				</div>
+		
+				<div class="childishdata">
+					<div class = "childsecond">Set 2</div>
+					<div class = "row2sec">
+						<div class = "weight">Weight <br><input type="text" class = "datainp" id="input15"></div>
+						<div class = "reps">Reps <br><input type="text" class = "datainp" id="input16"></div>
+					</div>
+				</div>
+		
+				<div class="childishdata">
+					<div class = "childsecond">Set 3</div>
+					<div class = "row2sec">
+						<div class = "weight">Weight <br><input type="text" class = "datainp" id="input17"></div>
+						<div class = "reps">Reps <br><input type="text" class = "datainp" id="input18"></div>
+					</div>
+				</div>
+		</div>
+			<!----------------------------------------------------------------->
+			<div class="exrow1">
+
+				<div class = "toto">
+					<div class = "row1sec">
+						<img src="https://fitnessprogramer.com/wp-content/uploads/2021/02/Barbell-Bent-Over-Row.gif" class="row1gif"></img>
+					</div>
+				</div>
+		
+				<div class="childishdata">
+					<div class = "childsecond">Set 1</div>
+						<div class = "row2sec">
+							<div class = "weight">Weight <br><input type="text" class = "datainp" id="input19"></div>
+							<div class = "reps">Reps <br><input type="text" class = "datainp" id="input20"></div>
+						</div>
+				</div>
+		
+				<div class="childishdata">
+					<div class = "childsecond">Set 2</div>
+					<div class = "row2sec">
+						<div class = "weight">Weight <br><input type="text" class = "datainp" id="input21"></div>
+						<div class = "reps">Reps <br><input type="text" class = "datainp" id="input22"></div>
+					</div>
+				</div>
+		
+				<div class="childishdata">
+					<div class = "childsecond">Set 3</div>
+					<div class = "row2sec">
+						<div class = "weight">Weight <br><input type="text" class = "datainp" id="input23"></div>
+						<div class = "reps">Reps <br><input type="text" class = "datainp" id="input24"></div>
+					</div>
+				</div>
+		</div>
+				<!----------------------------------------------------------------->
+				<div class="exrow1">
+
+					<div class = "toto">
+						<div class = "row1sec">
+							<img src="https://fitnessprogramer.com/wp-content/uploads/2021/05/Cable-Straight-Arm-Pulldown.gif" class="row1gif"></img>
+						</div>
+					</div>
+			
+					<div class="childishdata">
+						<div class = "childsecond">Set 1</div>
+							<div class = "row2sec">
+								<div class = "weight">Weight <br><input type="text" class = "datainp" id="input25"></div>
+								<div class = "reps">Reps <br><input type="text" class = "datainp" id="input26"></div>
+							</div>
+					</div>
+			
+					<div class="childishdata">
+						<div class = "childsecond">Set 2</div>
+						<div class = "row2sec">
+							<div class = "weight">Weight <br><input type="text" class = "datainp" id="input27"></div>
+							<div class = "reps">Reps <br><input type="text" class = "datainp" id="input28"></div>
+						</div>
+					</div>
+			
+					<div class="childishdata">
+						<div class = "childsecond">Set 3</div>
+						<div class = "row2sec">
+							<div class = "weight">Weight <br><input type="text" class = "datainp" id="input29"></div>
+							<div class = "reps">Reps <br><input type="text" class = "datainp" id="input30"></div>
+						</div>
+					</div>
+			</div>
+			<!----------------------------------------------------------------->
+			<div class="exrow1">
+
+				<div class = "toto">
+					<div class = "row1sec">
+						<img src="https://fitnessprogramer.com/wp-content/uploads/2021/02/Seated-Cable-Row.gif" class="row1gif"></img>
+					</div>
+				</div>
+		
+				<div class="childishdata">
+					<div class = "childsecond">Set 1</div>
+						<div class = "row2sec">
+							<div class = "weight">Weight <br><input type="text" class = "datainp" id="input31"></div>
+							<div class = "reps">Reps <br><input type="text" class = "datainp" id="input32"></div>
+						</div>
+				</div>
+		
+				<div class="childishdata">
+					<div class = "childsecond">Set 2</div>
+					<div class = "row2sec">
+						<div class = "weight">Weight <br><input type="text" class = "datainp" id="input33"></div>
+						<div class = "reps">Reps <br><input type="text" class = "datainp" id="input34"></div>
+					</div>
+				</div>
+		
+				<div class="childishdata">
+					<div class = "childsecond">Set 3</div>
+					<div class = "row2sec">
+						<div class = "weight">Weight <br><input type="text" class = "datainp" id="input35"></div>
+						<div class = "reps">Reps <br><input type="text" class = "datainp" id="input36"></div>
+					</div>
+				</div>
+		</div>
+			<!----------------------------------------------------------------->
+			<div class="exrow1">
+
+				<div class = "toto">
+					<div class = "row1sec">
+						<img src="https://fitnessprogramer.com/wp-content/uploads/2021/02/Bent-Over-Dumbbell-Row.gif" class="row1gif"></img>
+					</div>
+				</div>
+		
+				<div class="childishdata">
+					<div class = "childsecond">Set 1</div>
+						<div class = "row2sec">
+							<div class = "weight">Weight <br><input type="text" class = "datainp" id="input37"></div>
+							<div class = "reps">Reps <br><input type="text" class = "datainp" id="input38"></div>
+						</div>
+				</div>
+		
+				<div class="childishdata">
+					<div class = "childsecond">Set 2</div>
+					<div class = "row2sec">
+						<div class = "weight">Weight <br><input type="text" class = "datainp" id="input39"></div>
+						<div class = "reps">Reps <br><input type="text" class = "datainp" id="input40"></div>
+					</div>
+				</div>
+		
+				<div class="childishdata">
+					<div class = "childsecond">Set 3</div>
+					<div class = "row2sec">
+						<div class = "weight">Weight <br><input type="text" class = "datainp" id="input41"></div>
+						<div class = "reps">Reps <br><input type="text" class = "datainp" id="input42"></div>
+					</div>
+				</div>
+		</div>
+		<!----------------------------------------------------------------->
+		<div class="exrow1">
+
+			<div class = "toto">
+				<div class = "row1sec">
+					<img src="https://fitnessprogramer.com/wp-content/uploads/2021/09/Cable-Bent-Over-Row.gif" class="row1gif"></img>
+				</div>
+			</div>
+	
+			<div class="childishdata">
+				<div class = "childsecond">Set 1</div>
+					<div class = "row2sec">
+						<div class = "weight">Weight <br><input type="text" class = "datainp" id="input43"></div>
+						<div class = "reps">Reps <br><input type="text" class = "datainp" id="input44"></div>
+					</div>
+			</div>
+	
+			<div class="childishdata">
+				<div class = "childsecond">Set 2</div>
+				<div class = "row2sec">
+					<div class = "weight">Weight <br><input type="text" class = "datainp" id="input45"></div>
+					<div class = "reps">Reps <br><input type="text" class = "datainp" id="input46"></div>
+				</div>
+			</div>
+	
+			<div class="childishdata">
+				<div class = "childsecond">Set 3</div>
+				<div class = "row2sec">
+					<div class = "weight">Weight <br><input type="text" class = "datainp" id="input47"></div>
+					<div class = "reps">Reps <br><input type="text" class = "datainp" id="input48"></div>
+				</div>
+			</div>
+	</div>
+			<!----------------------------------------------------------------->
+			<div class="exrow1">
+
+				<div class = "toto">
+					<div class = "row1sec">
+						<img src="https://fitnessprogramer.com/wp-content/uploads/2022/02/EZ-Bar-Bent-Arm-Pullover.gif" class="row1gif"></img>
+					</div>
+				</div>
+		
+				<div class="childishdata">
+					<div class = "childsecond">Set 1</div>
+						<div class = "row2sec">
+							<div class = "weight">Weight <br><input type="text" class = "datainp" id="input49"></div>
+							<div class = "reps">Reps <br><input type="text" class = "datainp" id="input50"></div>
+						</div>
+				</div>
+		
+				<div class="childishdata">
+					<div class = "childsecond">Set 2</div>
+					<div class = "row2sec">
+						<div class = "weight">Weight <br><input type="text" class = "datainp" id="input51"></div>
+						<div class = "reps">Reps <br><input type="text" class = "datainp" id="input52"></div>
+					</div>
+				</div>
+		
+				<div class="childishdata">
+					<div class = "childsecond">Set 3</div>
+					<div class = "row2sec">
+						<div class = "weight">Weight <br><input type="text" class = "datainp" id="input53"></div>
+						<div class = "reps">Reps <br><input type="text" class = "datainp" id="input54"></div>
+					</div>
+				</div>
+		</div>
+		<!----------------------------------------------------------------->
+		<div class="exrow1">
+
+			<div class = "toto">
+				<div class = "row1sec">
+					<img src="https://fitnessprogramer.com/wp-content/uploads/2021/04/Dumbbell-Shrug.gif" class="row1gif"></img>
+				</div>
+			</div>
+	
+			<div class="childishdata">
+				<div class = "childsecond">Set 1</div>
+					<div class = "row2sec">
+						<div class = "weight">Weight <br><input type="text" class = "datainp" id="input55"></div>
+						<div class = "reps">Reps <br><input type="text" class = "datainp" id="input56"></div>
+					</div>
+			</div>
+	
+			<div class="childishdata">
+				<div class = "childsecond">Set 2</div>
+				<div class = "row2sec">
+					<div class = "weight">Weight <br><input type="text" class = "datainp" id="input57"></div>
+					<div class = "reps">Reps <br><input type="text" class = "datainp" id="input58"></div>
+				</div>
+			</div>
+	
+			<div class="childishdata">
+				<div class = "childsecond">Set 3</div>
+				<div class = "row2sec">
+					<div class = "weight">Weight <br><input type="text" class = "datainp" id="input59"></div>
+					<div class = "reps">Reps <br><input type="text" class = "datainp" id="input60"></div>
+				</div>
+			</div>
+	</div>
+		<!----------------------------------------------------------------->
+
+		<script src="FinalJS.js"></script></script>
+
+
+<script>
+    // Define the array to store input elements
+    let inputs = [];
+
+    // Function to populate the inputs array with input elements
+    function initializeInputs() {
+        for (let i = 1; i <= 64; i++) {
+            let input = document.getElementById('input' + i);
+            if (input) {
+                inputs.push(input);
+            }
+        }
+    }
+
+    function saveToCSV() {
+        let fileName = window.prompt("Please enter a file name:", "data.csv");
+        if (fileName != null && fileName != "") {
+            let csvContent = 'Inputs\n';
+            inputs.forEach(function(inputField) {
+                csvContent += inputField.value + '\n';
+            });
+            let blob = new Blob([csvContent], {
+                type: 'text/csv;charset=utf-8;'
+            });
+            let link = document.createElement('a');
+            if (link.download !== undefined) {
+                let url = URL.createObjectURL(blob);
+                link.setAttribute('href', url);
+                link.setAttribute('download', fileName);
+                link.style.visibility = 'hidden';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            }
+        }
+    }
+
+    function loadFromCSV() {
+        let file = document.getElementById('csvFile').files[0];
+        let reader = new FileReader();
+        reader.onload = function(event) {
+            let contents = event.target.result;
+            let lines = contents.split('\n');
+            lines.forEach(function(line, index) {
+                if (index > 0 && index <= inputs.length) {
+                    inputs[index - 1].value = line.trim();
+                }
+            });
+        };
+        reader.readAsText(file);
+    }
+
+    function resetForm() {
+        inputs.forEach(function(inputField) {
+            inputField.value = '';
+        });
+    }
+
+    // Initialize inputs when the page loads
+    initializeInputs();
+</script>
+
+	</body>
+</html>
